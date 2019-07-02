@@ -18,7 +18,7 @@ Remove "Illinois" and "Kansas" from the array below.
 
 ## Question 3
 
-Iterate through the array below. For each each state, print out whether or not it is **in the continental United States.**
+Iterate through the array below. For each state, print out the name of the state, a colon, and whether it is or is not **in the continental United States.**
 
 `let moreStates = ["Hawaii", "New Mexico", "Alaska", "Montana", "Texas", "New York", "Florida"]`
 
