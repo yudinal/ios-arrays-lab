@@ -1,6 +1,8 @@
-# Arrays lab
+# Arrays Lab
 
 Fork and clone this repo. On your fork, answer and commit the follow questions. When you are finished, submit the link to your repo on Canvas.
+
+# Arrays 1
 
 ## Question 1
 
@@ -142,8 +144,9 @@ var listTwo = [18, 94, 48, 6, 42, 68, 79, 76, 13, 7]
 var sharedElements = [Int]()
 ```
 
+# Arrays 2
 
-## Question 14
+## Question 1
 
 Write code such that `noDupeList` has all the same Ints as `dupeFriendlyList`, but has no more than one of each Int.
 
@@ -152,21 +155,21 @@ var dupeFriendlyList = [4,2,6,2,2,6,4,9,2,1]
 var noDupeList: [Int] = []
 ```
 
-## Question 15
+## Question 2
 
 Find the second smallest number in an Array of Ints
 
 `let arrayOfNumbers: [Int] = (1...100).map{ _ in Int.random(in: 0...200)}.map{Int($0)}`
 
 
-## Question 16
+## Question 3
 
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
 Find the sum of all the multiples of 3 or 5 below 1000.
 
 
-## Question 17
+## Question 4
 
 Make an array that contains all elements that appear **more than twice** in `someRepeatsAgain`.
 
@@ -175,14 +178,14 @@ var someRepeatsAgain = [25,11,30,31,50,28,4,37,13,20,24,38,28,14,44,33,7,43,39,3
 ```
 
 
-## Question 18
+## Question 5
 
 Identify if there are 3 integers that sum to 10 in the following array. If so, print them as a triplet. If there are multiple triplets, print all possible triplets.
 
 `var tripleSumArr = [-20,-14, -8,-5,-3,-2,1,2,3,4,9,15,20,30]`
 
 
-## Question 19
+## Question 6
 
 Given an array of Strings, find the the String with the most "a"s in it.
 
@@ -191,7 +194,7 @@ input: `["apes", "abba", "apple"]`
 output: `"abba"`
 
 
-## Question 20
+## Question 7
 
 Given an Array of Arrays of Ints, find the Array of Ints with the largest sum:
 
@@ -200,7 +203,7 @@ Input: `[[2,4,1],[3,0],[9,3]]`
 Output: `[9,3]`
 
 
-## Question 21
+## Question 8
 
 Given an Array of Tuples of type `(Int, Int)`, create an array containing all the tuples where the first Int is equal to the second Int.
 
@@ -209,7 +212,7 @@ Input: `[(4,2), (-3,-3), (1,1), (3,9)]`
 Output: `[(-3,-3), (1,1)]`
 
 
-## Question 22
+## Question 9
 
 Given an Array of Bools, make a variable called `allAreTrue` that is true if all of the Bools are true and false if any of them are false.
 
@@ -218,7 +221,7 @@ Input: `[true, false, true, true]`
 Output: `false`
 
 
-## Question 23
+## Question 10
 
 Given an Array of Ranges of Ints, create an array that has all the values from all the ranges in order from smallest to greatest with no duplicates.
 
@@ -227,7 +230,7 @@ Input: `[0..<3 , 2..<10, -4..<6, 13..<14]`
 Output: `[-4,-3,-2,-1,0,1,2,3,4,5,6,7,8,9,10,13]`
 
 
-## Question 24
+## Question 11
 
 Given an array of Characters, create a String ignoring and uppercase Characters and spaces.  Then uppercase every other character of the String.
 
@@ -236,21 +239,21 @@ Input: `let arr: [Character] = ["a", "p","P","l","E"," ","S","a","u","C,"e"]`
 Output: `"ApLeAuE"`
 
 
-## Question 25
+## Question 12
 
 Print out each element in `myMatrix`
 
 `var myMatrix = [[10, 14, 12], [91, 1, 9], [31, 3, 21]]`
 
 
-## Question 26
+## Question 13
 
 Print out the sum of the diagonals of `myMatrix`.
 
 `var myMatrix = [[10, 14, 12], [91, 1, 9], [31, 3, 21]]`
 
 
-## Question 27
+## Question 14
 
 Using for loops, rotate `matrixToRotate` 90 degrees.
 
