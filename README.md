@@ -2,7 +2,7 @@
 
 Fork and clone this repo. On your fork, answer and commit the follow questions. When you are finished, submit the link to your repo on Canvas.
 
-# Arrays 1
+# Part 1
 
 ## Question 1
 
@@ -144,7 +144,7 @@ var listTwo = [18, 94, 48, 6, 42, 68, 79, 76, 13, 7]
 var sharedElements = [Int]()
 ```
 
-# Arrays 2
+# Part 2
 
 ## Question 1
 
